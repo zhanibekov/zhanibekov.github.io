@@ -12,7 +12,8 @@ function jump() {
 }
 
 function restart() {
-  let dinoTop, cactusLeft = 0;
+  let dinoTop = 0;
+  let cactusLeft = -10;
 
   dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
   cactusLeft = parseInt(
